@@ -1,0 +1,75 @@
+{
+  "rain": {
+    "summary": "每次站点读数及后收更正，缺测以空白表示；同编号取可见的最终修订。",
+    "header": [
+      "record",
+      "station",
+      "day",
+      "minute",
+      "rain",
+      "revision",
+      "received"
+    ]
+  },
+  "performances": {
+    "summary": "原定节目窗、已知实际完成分钟、场地转移和原本承担的费用。",
+    "header": [
+      "performance",
+      "site",
+      "day",
+      "start",
+      "end",
+      "planned",
+      "completed",
+      "relocation",
+      "cost_cents",
+      "status",
+      "received"
+    ]
+  },
+  "recoveries": {
+    "summary": "票务、场地等已经追回的费用，不与演出替代重复扣回。",
+    "header": [
+      "recovery",
+      "performance",
+      "amount_cents",
+      "state",
+      "received"
+    ]
+  },
+  "policy_options": {
+    "summary": "候选主站、事先批准的备用站和触发阈值；minutes 是连续阈值覆盖时长。",
+    "header": [
+      "option",
+      "primary",
+      "fallback",
+      "threshold",
+      "minutes",
+      "site",
+      "limit_cents"
+    ]
+  },
+  "agreements": {
+    "summary": "已生效文书、给付状态及拟签条款。日界与节目时间均用当地日期。",
+    "header": [
+      "agreement",
+      "option",
+      "state",
+      "valid_from",
+      "valid_to",
+      "reserve_cents",
+      "adjustment"
+    ]
+  },
+  "settlements": {
+    "summary": "共享池历史回执；amount 为空表示金额仍未核定。",
+    "header": [
+      "claim",
+      "agreement",
+      "performance",
+      "amount",
+      "state",
+      "received"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+agreement,option,state,valid_from,valid_to,reserve_cents,adjustment
+S1,O1,active,2025-06-01,2025-12-31,1400000,manual_recovery
+S2,O3,active,2025-06-01,2025-12-31,1700000,manual_recovery
+S3,O5,active,2025-06-01,2025-12-31,1600000,supplement
+N1,O2,proposed,2025-10-25,2025-12-31,1200000,supplement
+N2,O4,proposed,2025-10-25,2025-12-31,2000000,manual_recovery
+N3,O6,proposed,2025-10-25,2025-12-31,2100000,manual_recovery

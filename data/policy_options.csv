@@ -1,0 +1,7 @@
+option,primary,fallback,threshold,minutes,site,limit_cents
+O1,M1,M2,24,30,A,1400000
+O2,M1,,20,40,A,1200000
+O3,M1,M2,20,30,B,1700000
+O4,M2,,28,20,B,2000000
+O5,M3,M2,18,30,C,1600000
+O6,M3,,28,20,C,2100000

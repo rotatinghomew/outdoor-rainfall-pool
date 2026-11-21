@@ -1,0 +1,5 @@
+claim,agreement,performance,amount,state,received
+P1,S1,A/2025-10-08,1400000,paid,2025-10-12T11:00
+P2,S2,B/2025-10-08,,under_review,2025-10-12T11:00
+P3,S3,C/2025-10-08,1600000,accepted,2025-10-13T11:00
+P4,S1,A/2025-10-12,,under_review,2025-10-15T11:00
